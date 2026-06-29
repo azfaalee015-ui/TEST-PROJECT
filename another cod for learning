@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="UTF-8">
+	<title>testtest</title>
+		<style>
+			body {
+      		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      		display: flex;
+      		flex-direction: column;
+      		align-items: center;
+      		justify-content: center;
+      		height: 100vh;
+      		margin: 0;
+      		background-color: #FFFAF3;
+    	}
+            h1 {
+      		color: #333;
+      		font-size: 1.5rem;
+      		margin-bottom: 30px;
+    	}
+            
+            #changetext {
+      		margin-top: 25px;
+      		font-size: 18px;
+      		color: #666;
+      		font-style: italic;
+      		transition: all 0.5s ease;
+        }   
+            .highlight-text {
+      		color: #11998e !important;
+      		font-weight: bold;
+      		font-style: normal !important;
+      		font-size: 24px !important;
+      		text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    	}
+        </style>
+</head>
+<body>
+	<header>
+	<h1>
+		im tryna make my own button without any tips or from ai assistant
+	</h1>
+	</header>
+	<main style="text-align: center;">
+		<button id="myBtn" class="magic-button">
+			click here for change da text
+		</button>
+		<p 
+			id="changetext">"the text should have change here"
+		</p>
+		<script>
+			"use strict";
+            
+            const button = document.getElementById("myBtn");
+    		const textOutput = document.getElementById("changetext");
+            
+            button.addEventListener("click", () => {
+            
+            	alert("it changed now!");
+                
+               		textOutput.innerText = "now you've made it!!!";
+      				textOutput.classList.toggle("highlight-text");
+            
+            
+            });
+		</script>
+
+
+
+	</main>
+</body>
+</html>
+
