@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>nuh-uh</title>
+<header>
+  <h1 style="text-align:center;color:crimson">best website ever <strong>EVER!!!</strong></h1>
+</header>
+
+<nav style="text-align:center">
+  <a href="https://en.meming.world/wiki/Bald_Guy_Staring">i dont even know what is this but if you click at it... it'll amazingly bring you to some website that there is a man staring at you, <em>for no reason...</em></a>
+  <a href="https://google.com"><br>it just a google... i mean, <strong>who exactly just gonna use this link if they already have google chrome on thier pc?!?</strong></a>
+</nav>
+<main>
+ <div style="text-align:center">
+  <button onclick="nuhuh()" style="color:crimson">click on me if yall wanna know what'll happend next</button>
+ </div>
+<script>
+ function nuhuh() {
+   alert("it changed now");
+   document.getElementById("title").innerText="love yall";
+   document.getElementById("title").style.color="blue";
+ }
+</script>
+  
+  <h2 id="title" style="color:red;text-align:center">goddayum</h2>
+  <div style="text-align:center">
+  <p>dont know why but they said they need this one for the cause</p>
+<img id="daimage" src="https://i.kym-cdn.com/entries/icons/facebook/000/043/174/cover12.jpg" alt="hydrogen bomb vs coughing baby" width="300" height="200">  
+  <div style="text-align:center">
+  <button id="changedaimage">double-click to change da image</button>  
+  </div>  
+    <script>
+  document.getElementById("changedaimage").addEventListener("dblclick", function() {
+    document.getElementById("daimage").src=
+    "https://i.wahup.com/media/tmp_meme_images/1555485e-2cf6-47ca-9941-4523e5a1ff30.png";
+  });
+    </script>
+<p style="text-align:center;color:blue"><strong>i think this is kinda cool so i put it here</strong></p>
+</main>
+รีวิวโคตรที่ฉันเขียนหน่อยสิว่าดีขนาดไหนกัน? แล้วถ้า 0/10 ให้เท่าไหร่ แล้วคิดว่าแต่นี้พอได้มั้ย? และจะเอาไปใช้ต่อใน CSS หรือ JavaScript ยังไง?
